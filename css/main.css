@@ -1,0 +1,327 @@
+@import url(./font.css);
+
+:root {
+   --Montserrat: "Montserrat";
+   --ProstoOne: "Prosto One";
+   --white: #fff;
+   --background: #151515;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+
+/* header */
+
+header {
+   background-color: #282828;
+   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+header .container {
+   max-width: 1110px;
+   margin: 0 auto;
+   padding: 0 6px;
+}
+
+header .container nav {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+header .container nav .first {
+   display: flex;
+   gap: 30px;
+}
+
+header .container nav .first .img {
+   cursor: pointer;
+}
+
+header .container nav .first ul {
+   display: flex;
+   gap: 30px;
+   align-items: center;
+}
+
+header .container nav .first ul li a {
+   color: #FFF;
+   text-align: right;
+   font-family: var(--Montserrat);
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+header .container nav .second {
+   display: flex;
+   gap: 25px;
+   align-items: center;
+}
+
+header .container nav .second i {
+   font-size: 20px;
+   color: #fff;
+   cursor: pointer;
+}
+
+header .container2 {
+   background-image: url(../img/Header.png);
+   background-size: cover;
+   padding: 263px 0 362px 0;
+   background-position-x: center;
+}
+
+header .container2 h1 {
+   color: #FFF;
+   font-family: var(--ProstoOne);
+   font-size: 100px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 75px;
+   text-align: center;
+}
+
+header .container2 .btn {
+   margin: 0 auto;
+   margin-top: 38px;
+   width: 200px;
+   height: 50px;
+   cursor: pointer;
+}
+
+header .container2 .btn button {
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   background-color: #FFF;
+   border: none;
+   color: #171718;
+   font-family: var(--Montserrat);
+   font-size: 20px;
+   font-style: italic;
+   font-weight: 500;
+   line-height: normal;
+   text-transform: uppercase;
+}
+
+/* header */
+
+main {
+   background-color: var(--background);
+   padding-bottom: 55px;
+}
+
+main .section1 {
+   max-width: 1110px;
+   margin: 0 auto;
+   padding: 0 6px;
+}
+
+
+
+
+main .section1 nav .container1 .first {
+   display: flex;
+   gap: 30px;
+}
+
+
+
+main .section1 nav .container1 .first p {
+   max-width: 520px;
+   color: #FFF;
+   font-family: var(--Montserrat);
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 40px;
+}
+
+main .section1 nav .container2 .first {
+   display: flex;
+   align-items: center;
+   gap: 63px;
+}
+
+main .section1 nav .container2 .first p {
+   max-width: 540px;
+   color: #FFF;
+   font-family: var(--Montserrat);
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+
+}
+
+
+main .section2 {
+   max-width: 1130px;
+   margin: 0 auto;
+   padding: 0 6px;
+}
+
+main .section2 nav .container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 12px;
+   padding-top: 50px;
+}
+
+main .section2 nav .container .text1 {
+   max-width: 333px;
+   color: #FFF;
+   text-align: right;
+   font-family: var(--Montserrat);
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+main .section2 nav .container .text2 {
+   max-width: 333px;
+   color: #FFF;
+   font-family: var(--Montserrat);
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+main .section2 nav .container .line {
+   width: 61px;
+   height: 1px;
+   flex-shrink: 0;
+   background-color: #C4C4C4;
+   color: rgba(196, 196, 196, 1);
+}
+
+main .section2 nav .container2 {
+   display: flex;
+   justify-content: space-between;
+}
+
+main .section2 nav .container2 .box {
+   display: inline-block;
+   flex-direction: column;
+   width: 255px;
+   height: 312px;
+   flex-shrink: 0;
+   border-radius: 6px;
+   background-color: #FFF;
+   color: rgba(255, 255, 255, 1);
+}
+
+main .section2 nav .container2 .box h2 {
+   color: #000;
+   font-family: var(--Montserrat);
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   padding: 15px 59px 10px 58px;
+}
+
+main .section2 nav .container2 .box img {
+   padding-left: 63px;
+}
+
+main .section2 nav .container2 .box p {
+   color: #000;
+   font-family: var(--Montserrat);
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   text-transform: uppercase;
+   padding-left: 63px;
+   padding-top: 10px;
+}
+
+main .section2 nav .container2 .box .buttone {
+   width: 161px;
+   height: 34px;
+   flex-shrink: 0;
+   background-color: #151515;
+   margin: 20px auto;
+}
+
+main .section2 nav .container2 .box .buttone button {
+   color: #FFF;
+   font-family: var(--Montserrat);
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-transform: uppercase;
+   background-color: #151515;
+   padding: 7px 57px;
+   cursor: pointer;
+}
+
+main .section2 nav .container2 .box2 img {
+   padding-left: 77px;
+}
+
+main .section2 nav .container2 .box2 h2 {
+   padding-left: 80px;
+}
+
+main .section2 nav .container2 {
+   margin-top: 79px;
+}
+
+/* main */
+
+/* footer */
+footer {
+   background: #282828;
+   box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+   padding: 81px 0;
+
+}
+
+footer .container {
+   max-width: 1110px;
+   margin: 0 auto;
+   padding: 0px 9px;
+}
+
+footer .container nav {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+footer .container nav ul {
+   display: flex;
+   gap: 30px;
+}
+
+footer .container nav ul li a {
+   color: #FFF;
+   text-align: right;
+   font-family: var(--Montserrat);
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+footer .container nav .ikonka i{
+   color: #FFF;
+   font-size: 50px;
+}
+
+/* footer */
